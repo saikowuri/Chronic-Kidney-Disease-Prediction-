@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class='container'>
+    <table class='table table-bordered table-condensed table-responsive'>
+        <h3><b>RESULT</b></h3>
+<br>
+        <tr>
+            <th bgcolor="blue"><center><b>PREDICTION</b><center></th>
+            <!-- <th>Inference</th> -->
+        </tr>
+<br>
+        <tr>
+            <td><center><b>{{ pred }}</b><center></td>
+            <!-- <td>{{ inf }}</td> -->
+        </tr>
+    </table>
+</div>
+
+{% endblock %}
